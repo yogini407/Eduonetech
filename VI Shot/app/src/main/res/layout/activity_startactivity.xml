@@ -86,7 +86,7 @@
             android:layout_gravity="center"
             android:adjustViewBounds="true"
             android:src="@drawable/btn_privacy"
-            android:visibility="invisible"/>
+             android:visibility="invisible" />
 
 
     </LinearLayout>
