@@ -446,7 +446,7 @@ public class FastMotionVideoActivity extends AppCompatActivity {
         this.f.videoPlayingProgress(this.f.getLeftProgress());
         this.q.a();
     }
-
+    
     public static String getTimeForTrackFormat(int i2) {
         long j2 = (long) i2;
         return String.format("%02d:%02d", new Object[]{Long.valueOf(TimeUnit.MILLISECONDS.toMinutes(j2)), Long.valueOf(TimeUnit.MILLISECONDS.toSeconds(j2) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(j2)))});
